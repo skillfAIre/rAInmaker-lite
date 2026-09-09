@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Secrets and local config, never commit these
+.env
+.env.local
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Anything you use as a private scratch/working copy
+drafts/
+notes-private/
+*-internal.*
+
+# Zipped skill downloads, if you ever drag one in here by habit while
+# copying files around, this repo ships the unzipped SKILL.md, not a zip
+*.zip
